@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import HomePage from './HomePage';
 import SearchPage from './SearchPage';
+import Header from './Header';
 
 const Paths = () => {
   const routes = useRoutes([
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Router>
+        <Header />
         <Paths />
       </Router>
     </div>
