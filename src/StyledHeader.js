@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { ReactComponent } from './logo.svg';
 
-export const Container = styled.section`
+export const Container = styled.header`
 width: 100%;
 height: 100px;
   margin: 0 auto;

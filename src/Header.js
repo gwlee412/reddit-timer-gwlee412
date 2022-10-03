@@ -11,13 +11,13 @@ function Header() {
         <Logo />
       </Link>
       <NavContainer>
-        <PageLinks to="/search">
+        <PageLinks to="/search.javascript">
           Search
         </PageLinks>
-        <PageLinks to="/search">
+        <PageLinks to="#how-it-works">
           How it works
         </PageLinks>
-        <PageLinks to="/search">
+        <PageLinks to="#about">
           About
         </PageLinks>
       </NavContainer>
