@@ -1,5 +1,6 @@
 /*font-family: 'Bitter', serif;
 font-family: 'Montserrat', sans-serif;*/
+<<<<<<< HEAD
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -27,3 +28,8 @@ h1, h2{
 a{
     color:'#0087ff';
 }
+=======
+body{
+    margin:0;
+}
+>>>>>>> main
