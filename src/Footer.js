@@ -7,7 +7,7 @@ import {
 function Footer() {
   return (
     <Container>
-      <PageLinks to={{ pathname: 'https://profy.dev/employers' }}>
+      <PageLinks to="https://profy.dev/employers">
         profy.dev
       </PageLinks>
       <Link to="/">
