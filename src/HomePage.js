@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react';
-<<<<<<< HEAD
 import React from 'react';
 import Header from './Header';
 import {
@@ -27,12 +26,8 @@ const HomePage = () => {
       </TitleContainer>
     </>
   );
-=======
+  }
 
-const HomePage = () => {
-  render();
-  return null;
->>>>>>> main
-};
+
 
 export default HomePage;
