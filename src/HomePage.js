@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import {
   TitleContainer, TitleQuestion, TitleDescription, SearchPageButton,
+  HeatMapImg, ImageContainer,
 } from './StyledHomePage';
 
 const HomePage = () => {
@@ -25,6 +26,9 @@ const HomePage = () => {
           r/javascript
         </TitleDescription>
       </TitleContainer>
+      <ImageContainer>
+        <HeatMapImg />
+      </ImageContainer>
       <Footer />
     </>
   );

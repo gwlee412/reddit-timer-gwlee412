@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ReactComponent } from './table.svg';
 
 export const TitleContainer = styled.section`
 width: 100%;
@@ -32,4 +33,16 @@ border-radius: 4px;
 cursor: pointer;
 text-transform: uppercase;
 margin-bottom:46px;
+`;
+
+export const HeatMapImg = styled(ReactComponent)`
+margin:auto;
+margin-top:36px;
+`;
+
+export const ImageContainer = styled.section`
+width: 100%;
+display:flex;
+justify-content:center;
+align-items:center;
 `;
