@@ -14,7 +14,6 @@ margin: 0 auto;
 
 export const Logo = styled(ReactComponent)`
   margin-top:2px;
-  margin-bottom:45px;
 `;
 
 export const PageLinks = styled(Link)`

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Container, Logo, PageLinks, NavContainer,
+  Container, Logo, PageLinks, NavContainer, ScrollLinks,
 } from './StyledHeader';
 
 function Header() {
@@ -14,12 +14,12 @@ function Header() {
         <PageLinks to="/search.javascript">
           Search
         </PageLinks>
-        <PageLinks to="#how-it-works">
+        <ScrollLinks to="#how-it-works">
           How it works
-        </PageLinks>
-        <PageLinks to="#about">
+        </ScrollLinks>
+        <ScrollLinks to="#about">
           About
-        </PageLinks>
+        </ScrollLinks>
       </NavContainer>
     </Container>
   );
