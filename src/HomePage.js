@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import {
@@ -19,15 +20,19 @@ const HomePage = () => {
         <TitleDescription>
           Great timing, great results! Find the best time to post on your subreddit.
         </TitleDescription>
-        <SearchPageButton>
-          show me the best time
-        </SearchPageButton>
+        <Link to="/search/javascript">
+          <SearchPageButton>
+            show me the best time
+          </SearchPageButton>
+        </Link>
         <TitleDescription>
           r/javascript
         </TitleDescription>
       </TitleContainer>
       <ImageContainer>
-        <HeatMapImg />
+        <Link to="/search/javascript">
+          <HeatMapImg />
+        </Link>
       </ImageContainer>
       <Footer />
     </>
