@@ -1,14 +1,15 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import {
-  TitleContainer, TitleQuestion, TitleDescription, SearchPageButton, HomePageContainer,
+  TitleContainer, TitleQuestion, TitleDescription, SearchPageButton,
 } from './StyledHomePage';
 
 const HomePage = () => {
   render();
   return (
-    <HomePageContainer>
+    <>
       <Header />
       <TitleContainer>
         <TitleQuestion>
@@ -24,7 +25,8 @@ const HomePage = () => {
           r/javascript
         </TitleDescription>
       </TitleContainer>
-    </HomePageContainer>
+      <Footer />
+    </>
   );
 };
 
