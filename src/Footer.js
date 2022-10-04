@@ -7,9 +7,9 @@ import {
 function Footer() {
   return (
     <Container>
-      <PageLinks to="https://profy.dev/employers">
+      <a href="https://profy.dev/employers" target="_blank" rel="noopener noreferrer">
         profy.dev
-      </PageLinks>
+      </a>
       <Link to="/">
         <Logo />
       </Link>
