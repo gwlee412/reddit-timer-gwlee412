@@ -19,6 +19,7 @@ function App() {
   return (
     <div>
       <Router>
+        <HomePage />
         <Paths />
       </Router>
     </div>
