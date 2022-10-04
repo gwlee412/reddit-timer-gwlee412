@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import { ReactComponent } from './logo.svg';
 
@@ -23,6 +24,12 @@ export const PageLinks = styled(Link)`
   color: #636363;
 `;
 
+export const ScrollLinks = styled(HashLink)`
+margin-left: 26px;
+  margin-top:1px;
+  text-decoration: none;
+  color: #636363;
+`;
 export const NavContainer = styled.section`
 display:flex;
 

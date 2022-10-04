@@ -7,7 +7,7 @@ import {
 function Footer() {
   return (
     <Container>
-      <a href="https://profy.dev/employers" target="_blank" rel="noopener noreferrer">
+      <a style={{ fontSize: '14px', color: '#636363', marginRight: '36px' }} href="https://profy.dev/employers" target="_blank" rel="noopener noreferrer">
         profy.dev
       </a>
       <Link to="/">
